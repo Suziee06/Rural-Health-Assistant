@@ -1,10 +1,12 @@
 import { Symptom, PredictionResult } from './types';
 export const symptoms: Symptom[] = [
-    { id: 'fever', en: 'Do you have a fever?', hi: 'क्य ा आपको बुखाि है?' },
-    { id: 'cough', en: 'Do you have a cough?', hi: 'क्य ा आपको खाोंसी है?' },
-    {
-        id: 'fatigue', en: 'Do you feel tired or weak?', hi: 'क्य ा आप िकान या कमजोिी महसूस
-कििे हैं?' },
+    { id: 'fever', en: 'Do you have a fever?', hi: 'क्या आपको बुखार है?' },
+{ id: 'cough', en: 'Do you have a cough?', hi: 'क्या आपको खांसी है?' },
+{
+  id: 'fatigue',
+  en: 'Do you feel tired or weak?',
+  hi: 'क्या आप थकान या कमजोरी महसूस करते हैं?'
+},
 { id: 'headache', en: 'Do you have a headache?', hi: 'क्य ा आपके तसि में ददत है?' },
 { id: 'bodyPain', en: 'Do you have body pain?', hi: 'क्या आपके शिीि में ददत है?' },
     { id: 'dizziness', en: 'Do you feel dizzy?', hi: 'क्य ा आपको चक्कि आिा है?' },

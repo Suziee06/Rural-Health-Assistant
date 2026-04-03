@@ -101,8 +101,7 @@ hover:shadow-xl transition-all"
               <div 
                 className={`w-12 h-12 rounded-full flex items-center justify-center transition
 colors ${ 
-                  voiceEnabled ? 'bg-primary text-primary-foreground' : 'bg-muted text-muted
-foreground' 
+                  voiceEnabled ? 'bg-primary text-primary-foreground' : 'bg-muted text-muted foreground' 
                 }`} 
               > 
                 <Mic className="w-6 h-6" /> 

@@ -7,7 +7,7 @@ import { ContextScreen } from './context-screen';
 import { ProcessingScreen } from './processing-screen'; 
 import { ResultsScreen } from './results-screen'; 
 import { Language, Screen, ContextInfo, PredictionResult } from '@/lib/types'; 
-import { symptoms, getPrediction } from '@/lib/health-data'; 
+import { symptoms, getPrediction } from "../../lib/health-data"; 
  
 export function HealthApp() { 
   const [screen, setScreen] = useState<Screen>('home'); 

@@ -40,9 +40,7 @@ export function ResultsScreen({
       causes: 'Possible Causes',
       advice: 'Health Advice',
       remedies: 'Natural & Ayurvedic Remedies',
-      disclaimer:
-        'This is not a medical diagnosis. Please consult a healthcare professional for serious 
-conditions.', 
+      disclaimer: 'This is not a medical diagnosis. Please consult a healthcare professional for serious conditions.', 
       listenResults: 'Listen to Results',
       stopListening: 'Stop',
       startOver: 'Check Again',
